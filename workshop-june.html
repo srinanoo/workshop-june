@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                font-family: 'Roboto', sans-serif;
+                box-sizing: border-box;
+            }
+            img {
+                max-width: 100%;
+            }
+            body {
+                margin: 0;
+            }
+            .row1 {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                border: 0;
+            }
+
+            .row2 {
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+            .row2 div {
+                padding: 20px;
+            }
+            .row2 .col1 {
+                text-align: right;
+            }
+
+            .row3 {
+                background-color: #ccc;
+                padding-top: 30px;
+                text-align: center;
+            }
+
+            .row3 h3 {
+                margin: 0;
+                padding-bottom: 20px;
+            }
+
+            .row4 {
+                background-color: #ccc;
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-gap: 15px;
+                padding-bottom: 50px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+
+            .row4 div {
+                background-color: white;
+                padding: 20px 10px;
+                text-align: center;
+            }
+            
+            .row5, .row6 {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-gap: 20px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+
+            .edu-exp {
+                background-color: #ccc;
+                padding: 10px 20px;
+                margin-bottom: 20px;
+            }
+
+            .row7, .row8 {
+                background-color: #ccc;
+            }
+
+            .row7 h3 {
+                margin:0;
+                padding-top: 40px;
+                padding-bottom: 30px;
+                text-align: center;
+            }
+
+            .row8 {
+                display: grid;
+                grid-template-columns: 33.333333% 33.333333% 33.333333%;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+            }
+
+            .row8 div {
+                padding: 8px;
+            }
+
+            .row9 {
+                background-color: black;
+                color: white;
+                padding: 40px 0;
+                text-align: center;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .row2 {
+                    grid-template-columns: 100%;
+                }
+                .row4 {
+                    grid-template-columns: 50% 50%;
+                }
+            }
+
+            @media only screen and (max-width: 576px) {
+                .row2, .row4, .row5, .row6, .row8 {
+                    grid-template-columns: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="row1">
+            DINESH .
+        </div>
+
+        <div class="row2">
+            <div class="col1">
+                <img src="me.jpg">
+            </div>
+            <div class="col2">
+                <h3>Hi Guys!</h3>
+                <p>My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... </p>
+                <p>My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... My profile content goes here... </p>
+            </div>
+        </div>
+
+        <div class="row3">
+            <h3>What I do</h3>
+        </div>
+
+        <div class="row4">
+            <div class="col1">
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Explain about this section with more details...</p>
+            </div>
+            <div class="col2">
+                <h4>TECHNICAL TRAINER</h4>
+                <p>Explain about this section with more details...</p>
+            </div>
+            <div class="col3">
+                <h4>ARCHERY</h4>
+                <p>Explain about this section with more details...</p>
+            </div>
+            <div class="col4">
+                <h4>FITNESS</h4>
+                <p>Explain about this section with more details...</p>
+            </div>
+        </div>
+
+        <div class="row5">
+            <div class="col1">
+                <h4>Education</h4>
+            </div>
+            <div class="col2">
+                <h4>Experience</h4>
+            </div>
+        </div>
+
+        <div class="row6">
+            <div class="col1">
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+                <div class="edu-exp">
+                    <p><strong>MSc (IT)</strong></p>
+                    <p>Year: </p>
+                    <p>Description: </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row7">
+            <h3>Works</h3>
+        </div>
+
+        <div class="row8">
+            <div class="col1">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div class="col2">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div class="col3">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div class="col1">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div class="col2">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+            <div class="col3">
+                <img src="1e650f11-7d32-43fc-8d6e-5b15e5747558.jpg">
+            </div>
+        </div>
+
+        <div class="row9">
+            <p>F T I L G</p>
+            <p>&copy; Copyright 2021. All Rights Reserved</p>
+        </div>
+    </body>
+</html>
